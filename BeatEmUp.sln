@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityEngine.TestRunner", "UnityEngine.TestRunner.csproj", "{a561f5ad-29a7-48fa-4555-c05ac4a00e85}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityEngine.UI", "UnityEngine.UI.csproj", "{720c943c-9be0-6d2c-7c14-af9f2b318bad}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityEngine.TestRunner", "UnityEngine.TestRunner.csproj", "{a561f5ad-29a7-48fa-4555-c05ac4a00e85}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.TextMeshPro", "Unity.TextMeshPro.csproj", "{c54287aa-bce9-4c85-6541-f940a0f7d2db}"
 EndProject
@@ -12,6 +12,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.Timeline", "Unity.Timeline.csproj", "{78891332-1010-4c3b-6cb8-c5a9175783c7}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.Mathematics", "Unity.Mathematics.csproj", "{a24806b9-67b3-fa81-bd44-71eef15fe562}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{f17ce884-e031-b8a3-7e8a-239b8a22d76c}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.2D.SpriteShape.Runtime", "Unity.2D.SpriteShape.Runtime.csproj", "{53ba92f4-fb24-a447-2734-3724d36022b3}"
 EndProject
@@ -68,10 +70,10 @@ Global
 		Debug|Any CPU = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{a561f5ad-29a7-48fa-4555-c05ac4a00e85}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{a561f5ad-29a7-48fa-4555-c05ac4a00e85}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{720c943c-9be0-6d2c-7c14-af9f2b318bad}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{720c943c-9be0-6d2c-7c14-af9f2b318bad}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{a561f5ad-29a7-48fa-4555-c05ac4a00e85}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{a561f5ad-29a7-48fa-4555-c05ac4a00e85}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{c54287aa-bce9-4c85-6541-f940a0f7d2db}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{c54287aa-bce9-4c85-6541-f940a0f7d2db}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5fad3c66-72e4-f112-4cfb-cf8a086506ca}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -80,6 +82,8 @@ Global
 		{78891332-1010-4c3b-6cb8-c5a9175783c7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{a24806b9-67b3-fa81-bd44-71eef15fe562}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{a24806b9-67b3-fa81-bd44-71eef15fe562}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{f17ce884-e031-b8a3-7e8a-239b8a22d76c}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{f17ce884-e031-b8a3-7e8a-239b8a22d76c}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{53ba92f4-fb24-a447-2734-3724d36022b3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{53ba92f4-fb24-a447-2734-3724d36022b3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{586938e2-f57b-31e5-0d9e-4a15e3ac29fc}.Debug|Any CPU.ActiveCfg = Debug|Any CPU

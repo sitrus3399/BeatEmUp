@@ -458,6 +458,7 @@ MonoBehaviour:
   isAttack: 0
   health: 10
   player: {fileID: 0}
+  currentDamage: 10
 --- !u!1 &7702526596099517934
 GameObject:
   m_ObjectHideFlags: 0

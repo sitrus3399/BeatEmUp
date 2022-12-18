@@ -11,6 +11,7 @@ public abstract class BaseCharacter : MonoBehaviour
     [SerializeField] protected bool isGround;
     [SerializeField] protected bool isAnim;
     [SerializeField] protected bool isAttack;
+    public bool isDead;
     [SerializeField] protected float health;
 
     protected Rigidbody rigidB;
@@ -19,6 +20,7 @@ public abstract class BaseCharacter : MonoBehaviour
     {
         characterAnimator = this.gameObject.GetComponent<Animator>();
         isAnim = false;
+        isDead = false;
         rigidB = GetComponent<Rigidbody>();
     }
 
@@ -43,6 +45,7 @@ public abstract class BaseCharacter : MonoBehaviour
         health -= damage;
         if (health <= 0)
         {
+            isDead = true;
             Destroy(gameObject);
         }
     }
